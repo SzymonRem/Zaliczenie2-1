@@ -9,7 +9,7 @@ class Main {
     char[] Samogłoski = {'a', 'ą', 'e', 'ę', 'i', 'o', 'u', 'y', 'ó', 'A', 'Ą', 'E', 'Ę', 'I', 'O', 'U', 'Y', 'Ó'};
 
     for (int i = 0; i < wyraz.length(); i++) {
-      int wynik=0;
+      int wynik=0; 
       for (int j=0;j<Samogłoski.length;j++) {
         if (Wyraz[i] == Samogłoski[j]) {
           System.out.println("Samogłoska: " + Wyraz[i]);
